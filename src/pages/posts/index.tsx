@@ -26,8 +26,8 @@ export default function index({ posts }: PostsProps) {
       <main className={styles.container}>
         <div className={styles.posts}>
           {posts.map((post) => (
-            <Link href={`/posts/${post.slug}`}>
-              <a key={post.slug} href="#">
+            <Link key={post.slug} href={`/posts/${post.slug}`}>
+              <a href="#">
                 <time>{post.updatedAt}</time>
                 <strong>{post.title}</strong>
                 <p>{post.excerpt}</p>

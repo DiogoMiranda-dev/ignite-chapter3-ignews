@@ -7,7 +7,7 @@ interface ActiveLinkProps extends LinkProps {
   activeClassName: string;
 }
 
-export default function ActiveLink({
+export function ActiveLink({
   activeClassName,
   children,
   ...rest
