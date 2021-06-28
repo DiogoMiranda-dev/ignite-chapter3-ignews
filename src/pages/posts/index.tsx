@@ -26,7 +26,7 @@ export default function index({ posts }: PostsProps) {
       <main className={styles.container}>
         <div className={styles.posts}>
           {posts.map((post) => (
-            <Link key={post.slug} href={`/posts/${post.slug}`}>
+            <Link key={post.slug} href={`/posts/preview/${post.slug}`}>
               <a href="#">
                 <time>{post.updatedAt}</time>
                 <strong>{post.title}</strong>
@@ -50,8 +50,6 @@ export const getStaticProps: GetStaticProps = async () => {
       pageSize: 100,
     }
   );
-
-  //console.log(JSON.stringify(response, null, 2));
 
   const posts = response.results.map((post) => {
     return {

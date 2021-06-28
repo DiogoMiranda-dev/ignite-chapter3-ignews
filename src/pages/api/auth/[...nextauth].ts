@@ -64,17 +64,12 @@ export default NextAuth({
           activeSubscription : userActiveSubscription,
         };
       } catch (error) {
+        console.log(error)
         return {
           ...session,
           activeSubscription: null,
         };
       }
     },
-    /* async redirect(url, baseUrl) {
-      return baseUrl
-    },
-    async jwt(token, user, account, profile, isNewUser) {
-      return token
-    } */
   },
 });

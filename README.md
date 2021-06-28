@@ -23,7 +23,9 @@ Um evento online e totalmente gratuito que o ajudará a dar o próximo passo na 
  -->
 
 ## :page_facing_up:🚀 Sobre o Projeto
-O Ig.News foi desenvolvido para te informar da melhor maneira.
+
+Esse projeto foi desenvolvido durante um dos desafios dos capítulos do Ignite da Rocketseat! A ideia era desenvolver um site utilizando o framework NextJS aplicando conceitos como consumo de API externas, API Root, Server Side Rendering (SSR), Static Site Generation (SSG), STRIPE para pagamentos das subscriptions, NextAuth para autenticação com Github, FaunaDB para armazenar as informações do usuário em um banco de dados e Prismic CMS para adição e gerenciamento do conteúdo dos posts.
+Nesse projeto eu acrescentei alguns detalhes por conta própria, já que curti bastante trabalhar nele!
 
 ## :computer: Demo
 
@@ -36,71 +38,18 @@ dados de [https://api.themoviedb.org/3](https://api.themoviedb.org/3)
 Interface [https://www.netflix.com/](https://www.netflix.com/) -->
 
 ## :art: Layout
-Design feito por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/)
+
+https://www.figma.com/file/9oPSHgoSdS1THFRyj5BLVd/ig.news-(Copy)?node-id=1%3A2
 
 <!-- ### Web -->
-<!-- <h4 align="center">
-  <img alt="ExampleWeb" title="ExampleWeb" src=".github/readme/moveit.gif" width="700px" />
-</h4> -->
-
-<!-- #### Theme Dark -->
-
-<!-- <h4 align="center">
-  <img alt="home-dark" title="home-dark" src=".github/readme/home-dark.png" width="400px" />
-  <img alt="dashboard-dark" title="dashboard-dark" src=".github/readme/dashboard-dark.png" width="400px" />
-  <img alt="challenges-dark" title="challenges-dark" src=".github/readme/challenges-dark.png" width="400px" />
-  <img alt="challenges-completed-dark" title="challenges-completed-dark" src=".github/readme/challenges-completed-dark.png" width="400px" />
-  <img alt="leaderboard" title="leaderboard" src=".github/readme/leaderboard-dark.png" width="400px" />
-</h4> -->
-
-<!-- #### Theme Light -->
-
-<!-- <h4 align="center">
-  <img alt="home-light" title="home-light" src=".github/readme/home-light.png" width="400px" />
-  <img alt="dashboard-light" title="dashboard-light" src=".github/readme/dashboard-light.png" width="400px" />
-  <img alt="challenges-light" title="challenges-light" src=".github/readme/challenges-light.png" width="400px" />
-  <img alt="challenges-completed-light" title="challenges-completed-light" src=".github/readme/challenges-completed-light.png" width="400px" />
-  <img alt="leaderboard" title="leaderboard" src=".github/readme/leaderboard-light.png" width="400px" />
-</h4> -->
-<!-- ### Mobile -->
-<!-- 
 <h4 align="center">
-  <img alt="ExampleMobile" title="ExampleMobile" src=".github/readme/mobile.gif" width="200px" />
-  <img alt="ExampleMobile" title="ExampleMobile" src=".github/readme/mobile-dark.jpeg" width="200px" />
-  <img alt="ExampleMobile" title="ExampleMobile" src=".github/readme/mobile-light.jpeg" width="200px" />
-  <!-- <img alt="ExampleMobile" title="ExampleMobile" src=".github/app-detail.jpg" width="200px" /> -->
-<!-- </h4> -->
+  <img alt="ExampleWeb" title="ExampleWeb" src=".github/ignews-home.png" width="700px" />
+  <img alt="ExampleWeb" title="ExampleWeb" src=".github/ignews-posts.png" width="700px" />
+   <img alt="ExampleWeb" title="ExampleWeb" src=".github/ignews-pagamento.png" width="700px" />
+    <img alt="ExampleWeb" title="ExampleWeb" src=".github/ignews-post-detalhe.png" width="700px" />
+</h4>
 
 <br/>
-
-<!-- ## :tada: Melhorias na Aplicação
-
-    -Adicionado api serverless na aplicação;
-    -Adicionado autenticação com github via Auth0;
-    -Adicionado Firebase para efetuar autenticação;
-    -Adicionado mongodb para salvar informações;
-    -Adicionado pagina de Leaderboard na aplicação;
-    -Adicionado theme dark na aplicação;
-    -Adicionado save theme no localStorage;
-    -Adicionado Switch para alterar os themes;
-    -Adicionado Toast como notificação;
-    -Adicionado Test com Jest;
-    -Adicionado storybook para os component;
-    -Adicionado opção de PWA na aplicação;
-    -Adicionado Ícones para representar os botões;
-    -Adicionado uma SideBar
-    -Adicionado component para SEO;
-    -Efetuado diversos ajustes no designer da aplicação;
-    -Efetuado ajustes para o mobile e PWA;
-
-## 🎖 Milestone
-
-    -Melhorar a SSR da aplicação
-    -Ajustar autenticação no Mobile
-    -Ajustar designer do app para Mobile
-    -Adicionar compartilhar com Redes Sociais
-    -Concluir os testes
-    -Ajustes no Storybook -->
 
 ## :hammer: Tecnologias:
 
@@ -108,15 +57,19 @@ Design feito por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/
 - **[NextJS](https://nextjs.org/)**
 - **[React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)**
 - **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro)**
+- **[prismicio](https://prismic.io/)**
+- **[stripe](https://stripe.com/br)**
+- **[Axios](https://github.com/axios/axios)**
+- **[faunadb](https://fauna.com/)**
+- **[next-auth](https://next-auth.js.org/)**
+- **[react-icons](https://react-icons.github.io/react-icons/)**
 
 - `devDependencies`:
 - **[TypeScript](https://www.typescriptlang.org/)**
 - **[sass](https://github.com/sass/sass)**
 
-<!-- 
-- **[react-icons](https://react-icons.github.io/react-icons/)**
+<!--
 - **[Styled Components](https://styled-components.com/)**
-- **[Axios](https://github.com/axios/axios)**
 - **[framer-motion](https://www.framer.com/motion/)**
 - **[js-cookie](https://github.com/js-cookie/js-cookie)**
 - **[Mongodb](https://www.mongodb.com/)**
@@ -142,14 +95,15 @@ Design feito por [Tiago Luchtenberg](https://www.instagram.com/tiagoluchtenberg/
  -->
 
 ## :blue_book: Instalação
+
 ## 🔎 Comandos
 
 - `dev`: Executa a aplicação em `localhost:3000`
 - `build`: Cria a Build do projeto
 - `start`: Executa a aplicação em produção
-<!-- - `test`: Executa **Jest** para testar todos os componentes e páginas -->
-<!-- - `eject`: Executa **Jest** em watch mode -->
-<!-- - `server`: Executa o servidor fake `localhost:3333` -->
+  <!-- - `test`: Executa **Jest** para testar todos os componentes e páginas -->
+  <!-- - `eject`: Executa **Jest** em watch mode -->
+  <!-- - `server`: Executa o servidor fake `localhost:3333` -->
 
 ## 🚀 Como rodar este projeto
 
@@ -176,6 +130,7 @@ $ yarn dev
 # O servidor inciará na porta:3000 - acesse http://localhost:3000
 
 ```
+
 <!-- # Execute o server fake
 $ yarn server
 # O servidor inciará na porta:3333 - acesse http://localhost:3333 -->
@@ -186,7 +141,6 @@ $ yarn server
 #Rodar os testes
 $ yarn test
 ``` -->
-
 
 <!--
 ### 📁 Configuração .ENV
@@ -211,6 +165,7 @@ BASE_URL=
 
 ```
  -->
+
 ## :astronaut: Autor
 
 <a href="https://github.com/DiogoMiranda-dev/">
@@ -225,8 +180,7 @@ BASE_URL=
   <img alt="Linkedin" src="https://img.shields.io/badge/-diogomiranda.dev-9871F5?label=Instagram&logo=instagram&style=flat-square">
 </a>
 
-Feito com ❤️ por Diogo Miranda  🥇 :astronaut:  [https://diogomiranda.dev.br/](https://diogomiranda.dev.br/)
-
+Feito com ❤️ por Diogo Miranda 🥇 :astronaut: [https://diogomiranda.dev.br/](https://diogomiranda.dev.br/)
 
 ## :memo: Licença
 
