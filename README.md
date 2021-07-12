@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido durante um dos desafios dos capítulos do Ignite d
 Nesse projeto eu acrescentei alguns detalhes por conta própria, já que curti bastante trabalhar nele!
 
 ## :computer: Demo
-
+[https://ignews-diogomiranda-dev.vercel.app/](https://ignews-diogomiranda-dev.vercel.app/)
 <!-- # 🚀  API
 
 dados de [https://api.themoviedb.org/3](https://api.themoviedb.org/3)
@@ -46,7 +46,6 @@ https://www.figma.com/file/9oPSHgoSdS1THFRyj5BLVd/ig.news-(Copy)?node-id=1%3A2
   <img alt="ExampleWeb" title="ExampleWeb" src=".github/ignews-home.png" width="700px" />
   <img alt="ExampleWeb" title="ExampleWeb" src=".github/ignews-posts.png" width="700px" />
    <img alt="ExampleWeb" title="ExampleWeb" src=".github/ignews-pagamento.png" width="700px" />
-    <img alt="ExampleWeb" title="ExampleWeb" src=".github/ignews-post-detalhe.png" width="700px" />
 </h4>
 
 <br/>
